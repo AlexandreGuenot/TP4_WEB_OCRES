@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  width: 1918px;
+  height: 150px;
+  background-color: bisque;
+}
+.main {
+  width: 1918px;
+  height: 858px;
+  background-color: rgb(250, 239, 225);
+}
+.btn-container {
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+}
+.content-btn {
+  background: var(--clr-primary-5);
+  display: inline-block;
+  padding: 1rem 8rem;
+  border-radius: var(--radius);
+  color: var(--clr-white);
+  border-color: transparent;
+  cursor: pointer;
+  margin-top: 2.5rem;
+  font-size: 1.2rem;
+}
+.section-center {
+  background-color: burlywood;
+  margin-left: 400px;
+  margin-right: 400px;
+  height: 540px;
+  justify-items: center;
+}
+.photo {
+  margin-left: 410px;
+  margin-top: 25px;
+  width: 250px;
+  height: 200px;
+}
+p {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+}
+p span.prenom {
+  float: left;
+  margin-left: 70px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+}
+p span.nom {
+  float: right;
+  margin-right: 70px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+}
+h2 {
+  margin-left: 70px;
+  margin-top: 100px;
+  font-family: "Courier New", Courier, monospace;
+}
+.post-container {
+  margin-top: 250px;
+  height: 250px;
+  background-color: rosybrown;
+}
+.post-container p {
+  align-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
