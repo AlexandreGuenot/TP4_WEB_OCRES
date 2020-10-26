@@ -11,12 +11,6 @@ const Page_Profile = ({donnees})  => {
 console.log('#' + c ) // Affiche bien l'hexa en Console... 
 document.body.style.color = '#' + c;
 }
-
-    function Changervaleur(theId){
-        
-    }
-
-
     const [value, setValue] = React.useState(0); // Pour Les Likes
     return (
         <div className = "section-center">
@@ -39,7 +33,7 @@ document.body.style.color = '#' + c;
                     <div className="post-container">
                     <p>{last_tweet}</p>
                     <button className="btn-like" 
-                            onClick = {() => Changervaleur(id)}>
+                            onClick = {() => setValue(value + 1)}>
                             Like
                     </button>
                     <h1 className="value-like">{value}</h1>
