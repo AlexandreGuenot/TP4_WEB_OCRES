@@ -63,6 +63,7 @@ h2 {
   margin-top: 100px;
   font-family: "Courier New", Courier, monospace;
 }
+
 .post-container {
   margin-top: 250px;
   height: 250px;
@@ -71,4 +72,33 @@ h2 {
 .post-container p {
   align-content: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-change-color {
+  background: var(--clr-primary-5);
+  display: inline-block;
+  padding: 1rem 8rem;
+  border-radius: var(--radius);
+  color: var(--clr-white);
+  border-color: transparent;
+  cursor: pointer;
+  margin-top: 2.5rem;
+  font-size: 1.2rem;
+  float: right;
+}
+
+.btn-like {
+  background: var(--clr-primary-5);
+  display: inline-block;
+  padding: 1rem 8rem;
+  border-radius: var(--radius);
+  color: var(--clr-white);
+  border-color: transparent;
+  cursor: pointer;
+  margin-top: 2.5rem;
+  font-size: 1.2rem;
+}
+.value-like {
+  margin-top: 2.5rem;
+  float: right;
 }
